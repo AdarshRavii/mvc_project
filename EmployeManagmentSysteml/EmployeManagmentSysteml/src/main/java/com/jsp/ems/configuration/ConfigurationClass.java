@@ -18,7 +18,7 @@ public class ConfigurationClass {
 	@Bean(name = "entityManager")
 	@Scope("prototype")
 	public EntityManager getEntityManager() {
-		return Persistence.createEntityManagerFactory("Jeevith").createEntityManager() ;
+		return Persistence.createEntityManagerFactory("adarsh").createEntityManager() ;
 	}
 	
 		
