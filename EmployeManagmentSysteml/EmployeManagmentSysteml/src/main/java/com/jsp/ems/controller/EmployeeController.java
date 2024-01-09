@@ -53,7 +53,7 @@ public class EmployeeController {
 		mav.setViewName("displayemployee.jsp");
 		return mav ;
 		}else {
-			mav.addObject("msg", "Eee object illa kano looo") ;
+			mav.addObject("msg", "Employee profile is not present") ;
 			mav.setViewName("index.jsp");
 			return mav ;
 		}
@@ -80,7 +80,7 @@ public class EmployeeController {
 		
 		return mav ;
 		}else {
-			mav.addObject("msg", "Eee object Upadte madake object nim appa kodtana") ;
+			mav.addObject("msg", "Employee profile is not present inorder to update") ;
 			mav.setViewName("index.jsp");
 			return mav ;
 		}
